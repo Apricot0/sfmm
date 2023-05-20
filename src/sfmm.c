@@ -5,7 +5,6 @@
 #include "debug.h"
 #include "sfmm.h"
 
-/*added by myself*/
 #include <errno.h>
 
 #define PACK(size,info) ((size)|(info)) /*pack a size, a in_aklst, a prv_alloc and a alloc bit*/
